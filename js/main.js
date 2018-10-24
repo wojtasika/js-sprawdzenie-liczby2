@@ -1,15 +1,14 @@
 
-
 function printAb(a,b) {
     
     if (a === 20 || b === 20) {
-        console.log('true');
+        return 'true';
     } else if ((a + b) <= 20) {
-        console.log('true');
+        return'true';
     } else {
-        console.log('false');
+        return 'false';
     }
 }
 
-printAb(12, 2);
-
+let result = printAb(16, 2);
+console.log(result);
